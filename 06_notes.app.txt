@@ -1,0 +1,13 @@
+user:
+  Types something in the input field and hits submit.
+
+browser -> server: Gets the input, uses javascript to add it to the list and then send an Ajax request to 
+https://studies.cs.helsinki.fi/exampleapp/new_note_spa 
+
+browser note:
+  Here, data is send as Json which includes the actual content and the timestamp
+
+server:
+  Gets the data send through the input form and updates the database adding the new entry
+
+
